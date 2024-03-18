@@ -1,0 +1,142 @@
+[
+  {
+    "ID": 1,
+    "Title": "Dom Casmurro",
+    "Author": "Machado de Assis",
+    "PublishingYear": 1899,
+    "PublishingCompany": "Garnier"
+  },
+  {
+    "ID": 2,
+    "Title": "A Arte da Guerra",
+    "Author": "Sun Tzu",
+    "PublishingYear": -500,
+    "PublishingCompany": "Desconhecida"
+  },
+  {
+    "ID": 3,
+    "Title": "O Pequeno Príncipe",
+    "Author": "Antoine de Saint-Exupéry",
+    "PublishingYear": 1943,
+    "PublishingCompany": "Reynal & Hitchcock"
+  },
+  {
+    "ID": 4,
+    "Title": "O Senhor dos Anéis",
+    "Author": "J.R.R. Tolkien",
+    "PublishingYear": 1954,
+    "PublishingCompany": "Allen & Unwin"
+  },
+  {
+    "ID": 5,
+    "Title": "Harry Potter e a Pedra Filosofal",
+    "Author": "J.K. Rowling",
+    "PublishingYear": 1997,
+    "PublishingCompany": "Bloomsbury"
+  },
+  {
+    "ID": 6,
+    "Title": "Cem Anos de Solidão",
+    "Author": "Gabriel García Márquez",
+    "PublishingYear": 1967,
+    "PublishingCompany": "Editorial Sudamericana"
+  },
+  {
+    "ID": 7,
+    "Title": "1984",
+    "Author": "George Orwell",
+    "PublishingYear": 1949,
+    "PublishingCompany": "Secker & Warburg"
+  },
+  {
+    "ID": 8,
+    "Title": "Crime e Castigo",
+    "Author": "Fiódor Dostoiévski",
+    "PublishingYear": 1866,
+    "PublishingCompany": "O Mensageiro Russo"
+  },
+  {
+    "ID": 9,
+    "Title": "O Alquimista",
+    "Author": "Paulo Coelho",
+    "PublishingYear": 1988,
+    "PublishingCompany": "Sant Jordi Asociados"
+  },
+  {
+    "ID": 10,
+    "Title": "A Bíblia Sagrada",
+    "Author": "Vários",
+    "PublishingYear": -1000,
+    "PublishingCompany": "Várias"
+  },
+  {
+    "ID": 11,
+    "Title": "O Hobbit",
+    "Author": "J.R.R. Tolkien",
+    "PublishingYear": 1937,
+    "PublishingCompany": "Allen & Unwin"
+  },
+  {
+    "ID": 12,
+    "Title": "O Leão, a Feiticeira e o Guarda-Roupa",
+    "Author": "C.S. Lewis",
+    "PublishingYear": 1950,
+    "PublishingCompany": "Geoffrey Bles"
+  },
+  {
+    "ID": 13,
+    "Title": "A Revolução dos Bichos",
+    "Author": "George Orwell",
+    "PublishingYear": 1945,
+    "PublishingCompany": "Secker & Warburg"
+  },
+  {
+    "ID": 14,
+    "Title": "A Metamorfose",
+    "Author": "Franz Kafka",
+    "PublishingYear": 1915,
+    "PublishingCompany": "Kurt Wolff Verlag"
+  },
+  {
+    "ID": 15,
+    "Title": "Os Miseráveis",
+    "Author": "Victor Hugo",
+    "PublishingYear": 1862,
+    "PublishingCompany": "Pagnerre"
+  },
+  {
+    "ID": 16,
+    "Title": "Memórias Póstumas de Brás Cubas",
+    "Author": "Machado de Assis",
+    "PublishingYear": 1881,
+    "PublishingCompany": "Tipografia Nacional"
+  },
+  {
+    "ID": 17,
+    "Title": "O Processo",
+    "Author": "Franz Kafka",
+    "PublishingYear": 1925,
+    "PublishingCompany": "Verlag Die Schmiede"
+  },
+  {
+    "ID": 18,
+    "Title": "A Odisséia",
+    "Author": "Homero",
+    "PublishingYear": -800,
+    "PublishingCompany": "Desconhecida"
+  },
+  {
+    "ID": 19,
+    "Title": "O Príncipe",
+    "Author": "Nicolau Maquiavel",
+    "PublishingYear": 1532,
+    "PublishingCompany": "Desconhecida"
+  },
+  {
+    "ID": 20,
+    "Title": "As Crônicas de Nárnia",
+    "Author": "C.S. Lewis",
+    "PublishingYear": 1950,
+    "PublishingCompany": "Geoffrey Bles"
+  }
+]
