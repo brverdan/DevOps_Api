@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devops-api-canary-deployment-v2
+spec:
+  selector:
+    matchLabels:
+      app: devops-api-canary
+  template:
+    metadata:
+      labels:
+        app: devops-api-canary
+    spec:
+      containers:
+      - name: devops-api-container
+        image: brunoverdaninfnet/apidevops:v2
+        ports:
+        - containerPort: 8080

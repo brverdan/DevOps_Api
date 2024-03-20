@@ -5,7 +5,7 @@ using Newtonsoft.Json;
 namespace DevOps.API.Controllers;
 
 [ApiController]
-[Route("api/v2/[controller]")]
+[Route("api/[controller]")]
 public class DevOpsController : ControllerBase
 {
     [HttpGet("errors")]
@@ -30,7 +30,7 @@ public class DevOpsController : ControllerBase
     [HttpGet("/")]
     public async Task<IActionResult> GetAllBooks()
     {
-        var filePath = "/Jason/Books.json";
+        var filePath = "app/Jason/Books.json";
 
         var file = System.IO.File.ReadAllText(filePath);
 
