@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devops-api-deployment
+spec:
+  selector:
+    matchLabels:
+      app: devops-api
+  template:
+    metadata:
+      labels:
+        app: devops-api
+    spec:
+      containers:
+      - name: devops-api-container-1
+        image: brunoverdaninfnet/apidevops:v1
+      - name: devops-api-container-2
+        image: brunoverdaninfnet/apidevops:v1
+      - name: devops-api-container-3
+        image: brunoverdaninfnet/apidevops:v1
+        ports:
+        - containerPort: 8082
+      - name: devops-api-container-4
+        image: brunoverdaninfnet/apidevops:v2
+        ports:
+        - containerPort: 8083
+        

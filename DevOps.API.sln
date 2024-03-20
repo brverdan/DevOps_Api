@@ -7,6 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DevOps.API", "DevOps.API\De
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Yamls", "Yamls", "{068DE13D-2A4E-469B-847E-AA7BCE688278}"
 	ProjectSection(SolutionItems) = preProject
+		api-deployment.yaml = api-deployment.yaml
 		..\..\..\Desktop\DevOps_TP3\ngnix-deployment.yaml = ..\..\..\Desktop\DevOps_TP3\ngnix-deployment.yaml
 	EndProjectSection
 EndProject
