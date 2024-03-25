@@ -8,13 +8,13 @@ namespace DevOps.API.Controllers;
 [Route("api/[controller]")]
 public class DevOpsController : ControllerBase
 {
-    [HttpGet("errors")]
+    [HttpGet("/errors")]
     public IActionResult Errors()
     {
         return Ok("Putz, deu erro! Versão: V2");
     }
 
-    [HttpGet("healthCheck")]
+    [HttpGet("/healthCheck")]
     public IActionResult Health()
     {
         var random = new Random().Next(1000);
