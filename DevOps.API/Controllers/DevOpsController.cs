@@ -26,13 +26,14 @@ public class DevOpsController : ControllerBase
 
         return Ok("Api funcionando normalmente! Versão: V2");
     }
-
     [HttpGet("/")]
     public async Task<IActionResult> GetAllBooks()
     {
-        var filePath = "app/Jason/Books.json";
+        var baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
 
-        var file = System.IO.File.ReadAllText(filePath);
+        string configPath = Path.Combine(baseDirectory, "Json", "Books.json");
+
+        var file = await System.IO.File.ReadAllTextAsync(configPath);
 
         var books = JsonConvert.DeserializeObject<List<Book>>(file);
 
