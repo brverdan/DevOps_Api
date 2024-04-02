@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata: 
+  name: prometheus-config
+data:
+  prometheus.yml: |-
+    global:
+      scrape_interval: 3s
+    scrape_configs:
+      - job_name: 'prometheus'
+        static_configs:
+          - targets: ['10.108.77.93:9090']
+      - job_name: 'devops_api'
+        static_configs:
+          - targets: ['10.97.140.2:8080']
